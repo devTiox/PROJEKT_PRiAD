@@ -1,0 +1,60 @@
+name: your_project_env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+  - pip
+  - numpy=2.1.1
+  - scipy=1.13.1
+  - pandas=2.2.3
+  - scikit-learn=1.5.2
+  - joblib=1.4.2
+  - cython=3.0.11
+  - matplotlib=3.9.2
+  - seaborn=0.13.2
+  - jax=0.4.31
+  - pydot=2.0.0
+
+  - pip:
+      - tensorflow==2.17.0
+      - keras==3.5.0
+      - librosa==0.10.2.post1
+      - audioread==3.0.1
+      - resampy==0.4.3
+      - pydub==0.25.1
+      - mutagen==1.47.0
+      - requests==2.32.3
+      - tqdm==4.66.5
+      - python-dotenv==1.0.1
+      - PyYAML==6.0.2
+      - certifi==2024.8.30
+      - click==8.1.7
+      - decorator==5.1.1
+      - six==1.16.0
+      - python-dateutil==2.9.0.post0
+      - pytz==2024.2
+      - pyparsing==3.1.4
+      - protobuf==4.25.3
+
+      # --- Jupyter stack ---
+      - notebook==7.2.2
+      - ipykernel==6.29.5
+      - ipywidgets==8.1.2
+      - nbconvert==7.16.4
+      - nbformat==5.10.4
+      - jupyter-client==8.6.2
+      - jupyter-core==5.7.2
+      - traitlets==5.14.3
+      - tornado==6.4.1
+      - pyzmq==26.2.0
+      - terminado==0.18.1
+      - wcwidth==0.2.13
+      - prompt-toolkit==3.0.48
+      - Pygments==2.18.0
+      - webencodings==0.5.1
+      - mistune==3.0.2
+      - Jinja2==3.1.4
+      - html5lib==1.1
+
