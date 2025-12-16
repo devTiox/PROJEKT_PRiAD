@@ -1,4 +1,5 @@
-name: your_project_env
+name: PROJEKT_PRiAD
+
 channels:
   - conda-forge
   - defaults
